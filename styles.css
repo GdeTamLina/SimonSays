@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #8048a8;
+}
+
+#game-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4rem;
+  margin:  6%;
+  color: #b5076b;
+  transform: rotate(5deg);
+  text-shadow: 5px 0 #f1ebbb;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  5%;
+  color: #f1ebbb;
+}
+
+.trophy {
+  position: absolute;
+  top: 10%;
+  width: 100px;
+}
+
+.description {
+position: absolute;
+top: 320px;
+left: 30px;
+width: 25%;
+font-family: 'Ruslan Display';
+font-size: 0.9rem;
+color: #f1ebbb;
+line-height: 2rem;
+text-align: left;
+}
+
+.simon {
+  position: absolute;
+  margin: 0;
+  left: 870px;
+  top: 170px;
+  opacity: 30%;
+  width: 400px;
+  /* filter: grayscale(100%); */
+
+}
+
+.first {
+  color: #45046a;
+  font-weight: bold;
+}
+
+.third {
+  color: #45046a;
+  font-weight: bold;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid #45046a;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FC7B5F;
+}
+
+.green {
+  background-color: #5FFC89;
+}
+
+.blue {
+  background-color: #5F9CFC;
+}
+
+.yellow {
+  background-color: #FCF25F;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
