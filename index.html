@@ -4,62 +4,70 @@
 <head>
   <meta charset="utf-8">
   <title>Simon</title>
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- Title and background image -->
+
   <h1 id="game-title">Simon says</h1>
   <img class="trophy" src="images/trophy.png" alt="">
   <h1 id="level-title">Press A Key to Start</h1>
 
-<img class="simon" src="images/simon-game.png" alt="">
+  <img class="simon" src="images/simon-game2.png" alt="">
 
-  <div class="description">
+  <!-- Description -->
 
-    <p class="first">Simon is an electronic game of
-      memory skill invented in 1978.</p>
 
-    <p>The device creates a series of
-      tones and lights and requires a user
-      to repeat the sequence.</p>
 
-    <p class="third">If the user succeeds, the series
-      becomes progressively longer <br>
-      and more complex</p>
-
-    <p>Once the user
-      fails or the time limit runs out,
-      the game is over </p>
-    </p>
-
-  </div>
+  <!-- Buttons -->
 
   <div class="container">
-    <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+    <div class="description">
 
-      </div>
+      <p class="first">Simon is an electronic game of
+        memory skill invented in 1978.</p>
 
-      <div type="button" id="red" class="btn red">
+      <p>The device creates a series of
+        tones and lights and requires a user
+        to repeat the sequence.</p>
 
-      </div>
+      <p class="third">If the user succeeds, the series
+        becomes progressively longer <br>
+        and more complex</p>
+
+      <p>Once the user
+        fails or the time limit runs out,
+        the game is over </p>
+      </p>
+
     </div>
 
+    <div lass="row">
+      <div type="button" id="green" class="btn green">
+      </div>
+      <div type="button" id="red" class="btn red">
+      </div>
+    </div>
     <div class="row">
-
       <div type="button" id="yellow" class="btn yellow">
-
       </div>
       <div type="button" id="blue" class="btn blue">
-
       </div>
-
     </div>
-
   </div>
+
+<!-- JS Script -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="game.js" charset="utf-8"></script>
