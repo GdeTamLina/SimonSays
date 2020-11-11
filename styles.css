@@ -3,10 +3,12 @@ body {
   background-color: #8048a8;
 }
 
+/* Title and background image */
+
 #game-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 4rem;
-  margin:  6%;
+  margin: 6%;
   color: #b5076b;
   transform: rotate(5deg);
   text-shadow: 5px 0 #f1ebbb;
@@ -15,7 +17,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
-  margin:  5%;
+  margin: 5%;
   color: #f1ebbb;
 }
 
@@ -25,27 +27,30 @@ body {
   width: 100px;
 }
 
-.description {
-position: absolute;
-top: 320px;
-left: 30px;
-width: 25%;
-font-family: 'Ruslan Display';
-font-size: 0.9rem;
-color: #f1ebbb;
-line-height: 2rem;
-text-align: left;
-}
-
 .simon {
+  z-index: -1;
   position: absolute;
   margin: 0;
-  left: 870px;
-  top: 170px;
+  left: 45%;
+  top: 10%;
   opacity: 30%;
-  width: 400px;
-  /* filter: grayscale(100%); */
+  width: 1000px;
+  filter: grayscale(100%);
+}
 
+/* Description */
+
+.description {
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 25%;
+  font-family: 'Ruslan Display';
+  font-size: 0.9rem;
+  color: #f1ebbb;
+  line-height: 2rem;
+  text-align: left;
 }
 
 .first {
@@ -58,11 +63,12 @@ text-align: left;
   font-weight: bold;
 }
 
+/* Buttons */
+
 .container {
   display: block;
   width: 50%;
   margin: auto;
-
 }
 
 .btn {
